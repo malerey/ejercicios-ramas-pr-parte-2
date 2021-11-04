@@ -64,7 +64,7 @@ Cuando alguien hace cambios en el repositorio remoto, debemos hacer `git pull` p
 
 *¿Por qué es importante tener esto en cuenta?*
 
-Cuando estamos trabajando de a muchas personas, hablamos de la importancia de crear nuevas ramas siempre a partir de la rama `main`. Si creas un Pull Request, tus cambios se integran a la rama main, pero no actualizas tu rama main, cuando vayas a crear una nueva rama esa rama va a estar desactualizada: no va a tener tus ultimos cambios, ni los de tus compañeras. 
+Cuando estamos trabajando de a muchas personas, hablamos de la importancia de crear nuevas ramas siempre a partir de la rama `main`. Si creas un Pull Request, tus cambios se integran a la rama main. Pero si no actualizas tu rama main, cuando vayas a crear una nueva rama esa rama va a estar desactualizada: no va a tener tus ultimos cambios, ni los de tus compañeras. 
 
 Cada vez que vas a crear una nueva rama desde `main`, debemos primero hacer `git pull` para tener siempre nuestra rama `main` actualizada. 
 
